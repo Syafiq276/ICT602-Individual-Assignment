@@ -39,7 +39,7 @@ public class AboutActivity extends AppCompatActivity {
         });
         githubLink = findViewById(R.id.github_link);
         githubLink.setOnClickListener(v -> {
-            String githubUrl = "https://github.com/your-repo"; // Replace with your actual GitHub repository URL
+            String githubUrl = "https://github.com/Syafiq276/ICT602-Individual-Assignment";
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(githubUrl));
             startActivity(browserIntent);
         });
